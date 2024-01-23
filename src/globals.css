@@ -1,0 +1,38 @@
+:root {
+    /*colors*/
+    --background-color: white;
+    --primary-blue: #3A8D8E;
+    --secondary-blue: #275575;
+    --third-blue: #E5F3F3;
+
+    --gray-one:#E5EAEA;
+    --gray-hover:#979797;
+  }
+  
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    html {
+      color-scheme: dark;
+    }
+  }
+  
