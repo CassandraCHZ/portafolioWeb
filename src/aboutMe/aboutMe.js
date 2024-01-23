@@ -5,7 +5,7 @@ import './aboutMe.modules.css';
 import React from 'react';
 
 function AboutMe() {
-  const cvUrl= "https://drive.google.com/file/d/1gxadfQkzsf6ZjUDXy17O2MpB1xkBWv3H/view?usp=sharing";
+  const cvUrl = "https://drive.google.com/file/d/1gxadfQkzsf6ZjUDXy17O2MpB1xkBWv3H/view?usp=sharing";
 
   return (
     <div className="container">
@@ -28,13 +28,13 @@ function AboutMe() {
         <img className="image" src="/images/FotoCirculos.png" alt="Cassandra Hernández"></img>
         <div className="icon">
           <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} size="3x"/>
+            <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
           <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} size="3x" />
+            <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
           <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faEnvelope} size="3x" />
+            <FontAwesomeIcon icon={faEnvelope} size="3x" />
           </a>
         </div>
       </div>
