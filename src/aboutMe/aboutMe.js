@@ -12,7 +12,9 @@ function AboutMe() {
       <div className="leftColumn">
         <div className="header">
           <span>Hola, soy</span>
-          <p className="texto-subrayado">Cassandra Celheoltl Hernández Zavala</p>
+          <div className="typing-container">
+          <p className="typing-text">Cassandra Celheoltl Hernández Zavala</p>
+          </div>
           <p>
             Ingeniera en Tecnologías de la Información y Comunicaciones.
           </p>

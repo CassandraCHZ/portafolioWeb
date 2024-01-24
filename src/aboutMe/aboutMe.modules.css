@@ -121,3 +121,27 @@
         margin-left: 100px;
     }
 }
+
+
+/*escritura de maquina*/
+.typing-container {
+    overflow: hidden;
+  }
+  
+  .typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #333;
+    background-color:var(--third-blue);
+    animation: typing 5s steps(40) infinite;
+    color: var(--secondary-blue);
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 170%;
+    }
+  }
