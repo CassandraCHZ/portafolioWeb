@@ -30,13 +30,13 @@ function AboutMe() {
         <img className="image" src="/images/FotoCirculos.png" alt="Cassandra Hernández"></img>
         <div className="icon">
           <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} size="3x" />
+            <FontAwesomeIcon icon={faGithub} size="3x" color= "var(--primary-blue)"/>
           </a>
           <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+            <FontAwesomeIcon icon={faLinkedin} size="3x" color= "var(--primary-blue)"/>
           </a>
           <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faEnvelope} size="3x" />
+            <FontAwesomeIcon icon={faEnvelope} size="3x" color= "var(--primary-blue)"/>
           </a>
         </div>
       </div>
