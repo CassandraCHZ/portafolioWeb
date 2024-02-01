@@ -3,24 +3,72 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className="container">
-      <div className="leftColumn">
-        <div className="header">
-          <span>Instituciones Académicas</span>
+    <div>
+      <div className="title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center" }}>EDUCACIÓN</div>
+      <div className="contenedo">
+       
+        <div className="lineatemp">
+        <div className="subtitle">Instituciones académicas</div>
+          <div className="fila">
+            <div className="disco"><div></div></div>
+            <div className="info-container">
+              <div>2019-2024</div>
+              <div>Ingeniería en Tecnologías de la Información y Comunicaciones  </div>
+              <div className="subtitle2"> Instituto Tecnológico de Aguascalientes </div>
+            </div>
+          </div>
+          <div className="fila">
+            <div className="disco"><div></div></div>
+            <div className="info-container">
+              <div>2016-2019</div>
+              <div>Bachillerato General con Capacitación en informática</div>
+              <div className="subtitle2">CEB 5/1 J. Reyes Heroles</div>
+            </div>
+          </div>
+        </div>
 
-          <p>
-            Instituto Tecnológico de Aguascalientes
-          </p>
-          <p className='text'>
-            Ingeniera en Tecnologías de la Información y Comunicaciones.
-          </p>
-
+        
+        <div className="lineatemp">
+        <div className="subtitle">Cursos y certificados</div>
+          <div className="fila">
+            <div className="disco"><div></div></div>
+            <div className="info-container">
+              <div>2023</div>
+              <div>Bussines Intelligence</div>
+              <div className="subtitle2">Ceriprof</div>
+              <div>Digital Marketing</div>
+              <div className="subtitle2">Ceriprof</div>
+            </div>
+          </div>
+          <div className="fila">
+            <div className="disco"><div></div></div>
+            <div className="info-container">
+              <div>2022</div>
+              <div>CCNA - Enterprise Networking, Security, and Automation</div>
+              <div className="subtitle2">CISCO</div>
+            </div>
+          </div>
+          <div className="fila">
+            <div className="disco"><div></div></div>
+            <div className="info-container">
+              <div>2021</div>
+              <div>CCNA - Introduction to Networks</div>
+              <div className="subtitle2">CISCO</div>
+              <div>Talent Land Digital</div>
+              <div className="subtitle2">Talent Land</div>
+            </div>
+          </div>
+          <div className="fila">
+            <div className="disco"><div></div></div>
+            <div className="info-container">
+              <div>2016</div>
+              <div>Fundamentos de Internet</div>
+              <div className="subtitle2">Google</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="rightColumn">
-        <img className="image" src="/images/FotoCirculos.png" alt="Cassandra Hernández"></img>
       </div>
-    </div>
   );
 }
 
