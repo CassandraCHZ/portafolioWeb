@@ -36,8 +36,8 @@ const Navbar = ({ refs }) => {
                 <li className={activeSection === 'skills' ? 'active' : ''}>
                     <a href="#skills" onClick={() => scrollToSection(refs.skillsRef)} className="btnfos btnfos-2">Skills</a>
                 </li>
-                <li>
-                    <a href="/" className="btnfos btnfos-2">Contáctame</a>
+                <li className={activeSection === 'contactame' ? 'active' : ''}>
+                    <a href="#contactame" onClick={() => scrollToSection(refs.contacmeRef)} className="btnfos btnfos-2">Contáctame</a>
                 </li>
             </ul>
         </nav>

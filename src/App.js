@@ -28,6 +28,9 @@ export default function App() {
       <div id="educacion" ref={skillsRef}>
         <Skills />
       </div>
+      <div id="contactame" ref={contacmeRef}>
+        <Contactme />
+      </div>
     </div>
   );
 };
