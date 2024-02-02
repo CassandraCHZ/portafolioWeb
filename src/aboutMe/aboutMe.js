@@ -6,6 +6,9 @@ import React from 'react';
 
 function AboutMe() {
   const cvUrl = "https://drive.google.com/file/d/1gxadfQkzsf6ZjUDXy17O2MpB1xkBWv3H/view?usp=sharing";
+  const email = "cassandra.hdez.zav@gmail.com";
+  const linkLinkedIn= "https://www.linkedin.com/in/cassandra-hernández-zavala-0a48192a8";
+  const linkGitHub= "https://github.com/CassandraCHZ";
 
   return (
     <div className="container">
@@ -29,13 +32,13 @@ function AboutMe() {
       <div className="rightColumn">
         <img className="image" src="/images/FotoCirculos.png" alt="Cassandra Hernández"></img>
         <div className="icon">
-          <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
+          <a href={linkGitHub} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} size="3x" color= "var(--primary-blue)"/>
           </a>
-          <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
+          <a href={linkLinkedIn} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} size="3x" color= "var(--primary-blue)"/>
           </a>
-          <a href="https://github.com/tu-usuario-de-github" target="_blank" rel="noopener noreferrer">
+          <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faEnvelope} size="3x" color= "var(--primary-blue)"/>
           </a>
         </div>

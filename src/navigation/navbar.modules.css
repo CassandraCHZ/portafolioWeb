@@ -170,3 +170,16 @@
     top: 0;
     width: 70%;
   }
+
+
+.iconV2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-blue);
+  margin-left: auto;
+}
+
+.iconV2 a {
+  margin-right: 30px;
+}

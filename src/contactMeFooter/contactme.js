@@ -1,28 +1,18 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './contactme.modules.css';
 import React from 'react';
 
-function AboutMe() {
+function Footer() {
 
     return (
-        <div className="container">
-            <div className="leftColumn">
-                <div className="header">
-                    <span>Hola, soy</span>
-                    <div className="typing-container">
-                        <p className="typing-text">Cassandra Celheoltl Hernández Zavala</p>
-                    </div>
-                    <p>
-                        Ingeniera en Tecnologías de la Información y Comunicaciones.
-                    </p>
-                    <p className='text'>
-                        Apasionada por el desarrollo web y amante del café. Me caracterizan el compromiso, la disciplina y la responsabilidad. Siempre busco ofrecer resultados excepcionales. ¡Espero que disfrutes revisando mi perfil!
-                    </p>
-                </div>
+        <footer className="footer">
+            <div className="square">
+                <div className="color-line"></div>
             </div>
-
-        </div>
+        </footer >
     );
 }
 
-export default AboutMe;
+export default Footer;
