@@ -1,19 +1,23 @@
 import './education.modules.css';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Education() {
+  //Change language
+  const { t } = useTranslation();
+
   return (
     <div>
-      <div className="title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center" }}>EDUCACIÓN</div>
+      <div className="title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center" }}>{t('EDUCATION')}</div>
       <div className="contenedo">
        
         <div className="lineatemp">
-        <div className="subtitle">Instituciones académicas</div>
+        <div className="subtitle">{t('Institution')}</div>
           <div className="fila">
             <div className="disco"><div></div></div>
             <div className="info-container">
               <div>2019-2024</div>
-              <div>Ingeniería en Tecnologías de la Información y Comunicaciones  </div>
+              <div>{t('Career2V')}</div>
               <div className="subtitle2"> Instituto Tecnológico de Aguascalientes </div>
             </div>
           </div>
@@ -21,7 +25,7 @@ function Education() {
             <div className="disco"><div></div></div>
             <div className="info-container">
               <div>2016-2019</div>
-              <div>Bachillerato General con Capacitación en informática</div>
+              <div>{t('Baccalaureate')}</div>
               <div className="subtitle2">CEB 5/1 J. Reyes Heroles</div>
             </div>
           </div>
@@ -29,7 +33,7 @@ function Education() {
 
         
         <div className="lineatemp">
-        <div className="subtitle">Cursos y certificados</div>
+        <div className="subtitle">{t('Courses')}</div>
           <div className="fila">
             <div className="disco"><div></div></div>
             <div className="info-container">
@@ -62,7 +66,7 @@ function Education() {
             <div className="disco"><div></div></div>
             <div className="info-container">
               <div>2016</div>
-              <div>Fundamentos de Internet</div>
+              <div>{t('Google')}</div>
               <div className="subtitle2">Google</div>
             </div>
           </div>

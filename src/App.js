@@ -6,6 +6,7 @@ import Education from './education/education';
 import Skills from './skills/skills';
 import Contactme from './contactMeFooter/contactme';
 import './App.css';
+import './i18n';
 
 export default function App() {
   const aboutMeRef = useRef(null);

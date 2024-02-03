@@ -2,8 +2,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faGears } from '@fortawesome/free-solid-svg-icons';
 import './skills.modules.css';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+
 
 function Skills() {
+      //Change language
+  const { t } = useTranslation();
+
     return (
         <div className="contenedor">
             <div className="title">
@@ -72,7 +78,7 @@ function Skills() {
                                     <FontAwesomeIcon icon={faGears} size="5x" />
                                 </div>
                                 <div className="subtitle">
-                                    <span>Otras</span>
+                                    <span>{t('Others')}</span>
                                 </div>
                             </div>
                         </div>
