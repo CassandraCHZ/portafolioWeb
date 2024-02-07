@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faGears } from '@fortawesome/free-solid-svg-icons';
+import { faReact, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import './skills.modules.css';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -7,8 +8,8 @@ import { useTranslation } from 'react-i18next';
 
 
 function Skills() {
-      //Change language
-  const { t } = useTranslation();
+    //Change language
+    const { t } = useTranslation();
 
     return (
         <div className="contenedor">
@@ -92,6 +93,15 @@ function Skills() {
                                 <img src='/logos/Others/visual.png' alt='Visual Studio' className="img" />
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="rec">
+                <div className="rec t">{t('Footer')}
+                    <div className="boton">
+                        <button className="boton react"><FontAwesomeIcon icon={faReact} size="x" /> React</button>
+                        <button className="boton html"><FontAwesomeIcon icon={faHtml5} size="x" /> HTML</button>
+                        <button className="boton css"><FontAwesomeIcon icon={faCss3Alt} size="x" /> CSS</button>
                     </div>
                 </div>
             </div>
