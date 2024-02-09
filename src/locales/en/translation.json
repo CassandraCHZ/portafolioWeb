@@ -11,6 +11,18 @@
     "About": "Passionate about web development and coffee lover. I am characterized by commitment, discipline and responsibility. I always seek to deliver exceptional results, I hope you enjoy reviewing my profile!",
     "Donwload": "Download resume",
 
+    "ElectricarMobile":"Electricar - Mobile",
+    "DescriptionEM":"I participated in the creation of a mobile application designed for the sale and distribution of electric vehicles. The app features specific interfaces for users, delivery personnel, and system administrators. Technologies used: Laravel, React Native, Javascript, HTML, CSS, and SQL.",
+    "ElectricarWeb":"Electricar - CRM + ERP",
+    "DescriptionEW":"I collaborated in the development of a specialized web platform for electric vehicle sales. This platform stands out for its effective integration of CRM and ERP technologies, enabling highly efficient management of corporate data, including suppliers and products, while facilitating user administration. Technologies used: Laravel, Javascript, HTML, CSS, and React.",
+    "Alex":"Smart home - Alex",
+    "DescriptionAlex":"I participated in the creation of an electrical system for the automation of functions within a residential setting, controlled through a mobile app. This solution encompasses areas such as security, automated irrigation, lighting, access control, and more. My focus was on designing and developing an efficient irrigation system for green areas. Technologies used: Arduino UNO, Bluetooth module, Sg90 servo motor, MQ-2 sensor, and humidity sensor. Additionally, I utilized the Arduino IDE and C/C++ programming languages.",
+    "Bola":"Magic ball",
+    "DescriptionBola":"Colaboré en la creación de un circuito que emula el funcionamiento de una bola mágica capaz de generar respuestas aleatorias ante las preguntas formuladas por los usuarios. Este proyecto se desarrolló utilizando componentes como Arduino, una protoboard y una pantalla LCD para mostrar las respuestas de manera interactiva.",
+    "Abarrotes":"Miscellany CF",
+    "DescriptionA":"I contributed to the development of a web platform aimed at enhancing the operations of a grocery store. This platform streamlines the product checkout process for customers. Additionally, I was involved in creating a CRUD system that enables efficient information management by administrators. Technologies used: Laravel, React Bootstrap, SQL, Node, and CSS. ",
+
+
     "Institution":"Academic institutions",
     "Courses":"Courses and certificates",
     "Career2V":"Information and Communications Technology Engineering",

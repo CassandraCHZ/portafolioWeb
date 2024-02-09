@@ -11,6 +11,17 @@
     "About": "Apasionada por el desarrollo web y amante del café. Me caracterizan el compromiso, la disciplina y la responsabilidad. Siempre busco ofrecer resultados excepcionales. ¡Espero que disfrutes revisando mi perfil!",
     "Donwload": "Descargar CV",
 
+    "ElectricarMobile":"Electricar - Móvil",
+    "DescriptionEM":"Participé en la creación de una aplicación móvil diseñada para la venta y distribución de vehículos eléctricos. La app presenta interfaces específicas destinadas a usuarios, repartidores y administradores del sistema. Tecnologías usadas: Laravel, React Native, Javascript, HTML, CSS y SQL.",
+    "ElectricarWeb":"Electricar - CRM + ERP",
+    "DescriptionEW":"Colaboré en el desarrollo de una plataforma web especializada en la venta de vehículos eléctricos. Esta plataforma se destaca por la  integración eficaz de tecnologías CRM y ERP, permitiendo una gestión altamente eficiente de los datos corporativos, incluyendo proveedores  y productos, además de facilitar la administración de usuarios. Tecnologías usadas: Laravel, Javascript, HTML, CSS y React.",
+    "Alex":"Casa Domótica - Alex",
+    "DescriptionAlex":"Participé en la creación de un sistema eléctrico para la automatización de funciones de una residencia, controladas a través de una app móvil. Esta solución abarca áreas como seguridad, riego automático, iluminación, accesos y entre otros. Me enfoque fue el diseño y desarrollo del sistema de riego eficiente para áreas verdes. Tecnologías usadas: Arduino  UNO, módulo Bluetooth, servomotor Sg90, sensor MQ-2 y sensor de humedad. Además, de utilizar el IDE de Arduino y lenguajes C/C++.",
+    "Bola":"Bola mágica",
+    "DescriptionBola":"Colaboré en la creación de un circuito que emula el funcionamiento de una bola mágica capaz de generar respuestas aleatorias ante las preguntas formuladas por los usuarios. Este proyecto se desarrolló utilizando componentes como Arduino, una protoboard y una pantalla LCD para mostrar las respuestas de manera interactiva.",
+    "Abarrotes":"Abarrotes CF",
+    "DescriptionA":" Colaboré en el desarrollo de una plataforma web enfocada en mejorar las funciones de una tienda de abarrotes. Permite agilizar el proceso de cobro de productos para los clientes. Además, estuve involucrado en la creación de un sistema CRUD que permite una gestión eficaz de la información por parte de los administradores. Tecnologías usadas: Laravel, React Bootstrap, SQL, Node y CSS.",
+
     "Institution":"Instituciones académicas",
     "Courses":"Cursos y certificados",
     "Career2V":"Ingeniería en Tecnologías de la Información y Comunicaciones",
@@ -20,5 +31,6 @@
     "Others":"Otras",
     
     "Footer":"Este sitio esta desarrollado con:"
+
   }
   

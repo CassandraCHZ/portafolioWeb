@@ -141,12 +141,10 @@ function Projects() {
                         />
                         <div className="cardv2__content | flow">
                             <div className="cardv2__content--container | flow">
-                                <h2 className="cardv2__title">Electricar - Movil</h2>
+                                <h2 className="cardv2__title">{t('ElectricarMobile')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                        Participé en la creación de una aplicación móvil diseñada para la venta y distribución de vehículos eléctricos. La app presenta interfaces
-                                        específicas destinadas a usuarios, repartidores y administradores del sistema. Tecnologías usadas: Laravel, React Native, Javascript, HTML,
-                                        CSS y SQL.
+                                    {t('DescriptionEM')}
                                     </p>
                                 </div>
                             </div>
@@ -163,12 +161,10 @@ function Projects() {
                         />
                         <div className="cardv2__content | flow" style={{height:"73%"}}>
                             <div className="cardv2__content--container | flow">
-                                <h2 className="cardv2__title">Electricar - CRM + ERP</h2>
+                                <h2 className="cardv2__title">{t('ElectricarWeb')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    Colaboré en el desarrollo de una plataforma web especializada en la venta de vehículos eléctricos. Esta plataforma se destaca por la 
-                                    integración eficaz de tecnologías CRM y ERP, permitiendo una gestión altamente eficiente de los datos corporativos, incluyendo proveedores 
-                                    y productos, además de facilitar la administración de usuarios. Tecnologías usadas: Laravel, Javascript, HTML, CSS y React.
+                                    {t('DescriptionEW')}
                                     </p>
                                 </div>
                             </div>
@@ -187,13 +183,10 @@ function Projects() {
                         />
                         <div className="cardv2__content | flow" style={{height: "72%"}}>
                             <div className="cardv2__content--container | flow">
-                                <h2 className="cardv2__title">Casa Domótica - Alex</h2>
+                                <h2 className="cardv2__title">{t('Alex')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    Participé en la creación de un sistema eléctrico para la automatización de funciones de una residencia, controladas a 
-                                    través de una app móvil. Esta solución abarca áreas como seguridad, riego automático, iluminación, accesos y entre 
-                                    otros. Me enfoque fue el diseño y desarrollo del sistema de riego eficiente para áreas verdes. Tecnologías usadas: Arduino 
-                                    UNO, módulo Bluetooth, servomotor Sg90, sensor MQ-2 y sensor de humedad. Además, de utilizar el IDE de Arduino y lenguajes C/C++.
+                                    {t('DescriptionAlex')}
                                     </p>
                                 </div>
                             </div>
@@ -210,12 +203,10 @@ function Projects() {
                         />
                         <div className="cardv2__content | flow">
                             <div className="cardv2__content--container | flow">
-                                <h2 className="cardv2__title">Bola mágica</h2>
+                                <h2 className="cardv2__title">{t('Bola')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    Colaboré en la creación de un circuito que emula el funcionamiento de una bola mágica capaz de generar 
-                                    respuestas aleatorias ante las preguntas formuladas por los usuarios. Este proyecto se desarrolló utilizando componentes como Arduino, una protoboard y una pantalla LCD para
-                                    mostrar las respuestas de manera interactiva.
+                                    {t('DescriptionBola')}
                                     </p>
                                 </div>
                             </div>
@@ -233,12 +224,10 @@ function Projects() {
                         />
                         <div class="cardv2__content | flow">
                             <div class="cardv2__content--container | flow">
-                                <h2 class="cardv2__title">Abarrotes CF</h2>
+                                <h2 class="cardv2__title"> {t('Abarrotes')}</h2>
                                 <div className="pv2">
                                     <p class="cardv2__description">
-                                        Colaboré en el desarrollo de una plataforma web enfocada en mejorar las funciones de una tienda de abarrotes. Permite agilizar el proceso
-                                        de cobro de productos para los clientes. Además, estuve involucrado en la creación de un sistema CRUD que permite una gestión eficaz de
-                                        la información por parte de los administradores. Tecnologías usadas: Laravel, React Bootstrap, SQL, Node y CSS.
+                                    {t('DescriptionA')}
                                     </p>
                                 </div>
                             </div>
