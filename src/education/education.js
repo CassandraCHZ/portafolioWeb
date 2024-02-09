@@ -8,7 +8,7 @@ function Education() {
 
   return (
     <div>
-      <div className="title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center" }}>{t('EDUCATION')}</div>
+      <div className="title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center", marginTop:"60px" }}>{t('EDUCATION')}</div>
       <div className="contenedo">
        
         <div className="lineatemp">
