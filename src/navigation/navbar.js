@@ -42,9 +42,9 @@ const Navbar = ({ refs }) => {
             <ul className={`nav-links ${showMenu ? 'active' : ''}`}>
                 <li className={activeSection === 'sobreMi' ? 'active' : ''}>
                     <a href="#sobre-mi" onClick={() => scrollToSection(refs.aboutMeRef)} className="btnfos btnfos-2">{t('AboutMe')}</a>
-                </li>
-                <li>
-                    <a href="/" className="btnfos btnfos-2">{t('Projects')}</a>
+                </li >
+                <li className={activeSection === 'proyecto' ? 'active' : ''}>
+                    <a href="#proyectos" onClick={() => scrollToSection(refs.projectRef)} className="btnfos btnfos-2">{t('Projects')}</a>
                 </li>
                 <li className={activeSection === 'educacion' ? 'active' : ''}>
                     <a href="#educacion" onClick={() => scrollToSection(refs.educationRef)} className="btnfos btnfos-2">{t('Education')}</a>

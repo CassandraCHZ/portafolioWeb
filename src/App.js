@@ -4,7 +4,6 @@ import AboutMe from './aboutMe/aboutMe';
 import Projects from './projects/projects';
 import Education from './education/education';
 import Skills from './skills/skills';
-import Contactme from './contactMeFooter/contactme';
 import './App.css';
 import './i18n';
 
@@ -22,7 +21,9 @@ export default function App() {
       <div id="sobre-mi" ref={aboutMeRef}>
         <AboutMe />
       </div>
-
+      <div id="proyecto" ref={projectRef}>
+        <Projects />
+      </div>
       <div id="educacion" ref={educationRef}>
         <Education />
       </div>
