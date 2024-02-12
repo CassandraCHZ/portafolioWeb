@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faGears } from '@fortawesome/free-solid-svg-icons';
-import { faReact, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3Alt, faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import './skills.modules.css';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -102,6 +102,7 @@ function Skills() {
                         <button className="boton react"><FontAwesomeIcon icon={faReact} size="x" /> React</button>
                         <button className="boton html"><FontAwesomeIcon icon={faHtml5} size="x" /> HTML</button>
                         <button className="boton css"><FontAwesomeIcon icon={faCss3Alt} size="x" /> CSS</button>
+                        <button className="boton node"><FontAwesomeIcon icon={faNodeJs} size="x" /> Node JS</button>
                     </div>
                 </div>
             </div>

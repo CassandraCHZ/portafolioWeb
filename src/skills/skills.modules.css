@@ -159,6 +159,13 @@
   padding: 5px;
 }
 
+.boton.node{
+  background-color: #8bc500;
+  color: var(--background-color); 
+  padding: 5px;
+  margin-top: 5px;
+}
+
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
