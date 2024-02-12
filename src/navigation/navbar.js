@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faFlagUsa, faFlag } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -68,7 +68,11 @@ const Navbar = ({ refs }) => {
                 </li>
 
                 <a onClick={toggleLanguage}>
-                    <FontAwesomeIcon icon={i18n.language === 'en' ? faFlagUsa : faFlag} size="2x" color="var(--primary-blue)"/>
+                    {i18n.language === 'en' ? (
+                        <img src="/images/usa.png" alt= "USA" style={{width:"30%" }}/>
+                    ) : (
+                        <img src="/images/mexico.png" alt= "México" style={{width:"30%" }}/>
+                    )}
                 </a>
             </ul>
 
