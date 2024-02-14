@@ -18,6 +18,7 @@ export default function App() {
     <div>
       <Navbar
         refs={{ aboutMeRef, projectRef, educationRef, skillsRef, contacmeRef }} />
+<br/><br/><br/><br/>
       <div id="sobre-mi" ref={aboutMeRef}>
         <AboutMe />
       </div>
@@ -30,6 +31,7 @@ export default function App() {
       <div id="educacion" ref={skillsRef}>
         <Skills />
       </div>
+
     </div>
   );
 };

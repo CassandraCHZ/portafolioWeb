@@ -15,14 +15,14 @@ function AboutMe() {
   const { t } = useTranslation();
 
   return (
-    <div className="container">
+    <div className="aboutcontainer">
       <div className="leftColumn">
         <div className="header">
           <span>{t('Greetings')}</span>
           <div className="typing-container">
             <p className="typing-text">Cassandra Celheoltl Hernández Zavala</p>
           </div>
-          <p>{t('Career')}</p>
+          <p style={{textAlign:"center"}}>{t('Career')}</p>
           <p className='text'>{t('About')}</p>
           <div id="outer">
             <a className="button_slide slide_right" href={cvUrl} download="CV_CassandraCelheoltlHernándezZavala.pdf">{t('Donwload')}</a>

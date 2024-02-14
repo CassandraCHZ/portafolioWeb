@@ -1,21 +1,24 @@
-.container {
+.aboutcontainer {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 90%;
+    max-height: 100vh;
     margin: 0 auto;
 }
 
-.column-left {
-    background-color: var(--background-color);
+.leftColumn {
+    background-color: white;
+    max-height: 500px;
 }
 
-.column-right {
-    background-color: var(--background-color);
+.rightColumn {
+    background-color: white;
+    max-height: 500px;
 }
 
 .image {
-    height: 60vh;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +29,7 @@
 }
 
 .header {
-    min-height: 110vh;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,19 +110,27 @@
 }
 
 /*para otros dipositivos*/
-@media (min-width: 768px) {
-    .container {
-        grid-template-columns: 1fr 1fr;
+@media (max-width: 768px) {
+    .aboutcontainer {
+        grid-template-columns: 1fr;
     }
 
     .image {
-        margin-top: 100px;
-        margin-left: 160px;
+        margin-top: 50px;
+        height: 50%;
     }
 
     .icon {
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: 40px;
+    }
+
+    .leftColumn{
+        max-width: 100%;
+    }
+
+    .rightColumn{
+        max-width: 100%;
     }
 }
 
