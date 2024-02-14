@@ -33,12 +33,12 @@ function Skills() {
                         </div>
                         <div className="card-back">
                             <div className="img-container">
-                                <img src='/logos/frontEnd/bootstrap.png' alt='Bootstrap' className="img" />
-                                <img src='/logos/frontEnd/chakra.png' alt='Chakra UI' className="img" />
-                                <img src='/logos/frontEnd/rn.png' alt='React Native' className="img" />
-                                <img src='/logos/frontEnd/html.png' alt='HTML' className="img" />
-                                <img src='/logos/frontEnd/css.png' alt='CSS' className="img" />
-                                <img src='/logos/frontEnd/js.png' alt='JS' className="img" />
+                                <img src='logos/frontEnd/bootstrap.png' alt='Bootstrap' className="img" />
+                                <img src='logos/frontEnd/chakra.png' alt='Chakra UI' className="img" />
+                                <img src='logos/frontEnd/rn.png' alt='React Native' className="img" />
+                                <img src='logos/frontEnd/html.png' alt='HTML' className="img" />
+                                <img src='logos/frontEnd/css.png' alt='CSS' className="img" />
+                                <img src='logos/frontEnd/js.png' alt='JS' className="img" />
                             </div>
                         </div>
                     </div>
@@ -58,14 +58,14 @@ function Skills() {
                         </div>
                         <div className="card-back">
                             <div className="img-container">
-                                <img src='/logos/backEnd/laravel.png' alt='Laravel' className="img-back" />
-                                <img src='/logos/backEnd/postman.png' alt='Postman' className="img-back" />
-                                <img src='/logos/backEnd/node.png' alt='Node JS' className="img-back" />
-                                <img src='/logos/backEnd/mysql.png' alt='MySQL' className="img-back" />
-                                <img src='/logos/backEnd/java.png' alt='JAVA' className="img-back" />
-                                <img src='/logos/backEnd/php.png' alt='PHP' className="img-back" />
-                                <img src='/logos/backEnd/sql.png' alt='SQL' className="img-back" />
-                                <img src='/logos/backEnd/c.png' alt='C#' className="img-back" />
+                                <img src='logos/backEnd/laravel.png' alt='Laravel' className="img-back" />
+                                <img src='logos/backEnd/postman.png' alt='Postman' className="img-back" />
+                                <img src='logos/backEnd/node.png' alt='Node JS' className="img-back" />
+                                <img src='logos/backEnd/mysql.png' alt='MySQL' className="img-back" />
+                                <img src='logos/backEnd/java.png' alt='JAVA' className="img-back" />
+                                <img src='logos/backEnd/php.png' alt='PHP' className="img-back" />
+                                <img src='logos/backEnd/sql.png' alt='SQL' className="img-back" />
+                                <img src='logos/backEnd/c.png' alt='C#' className="img-back" />
                             </div>
                         </div>
                     </div>
@@ -85,12 +85,12 @@ function Skills() {
                         </div>
                         <div className="card-back">
                             <div className="img-container">
-                                <img src='/logos/Others/adobe.png' alt='Abode Illustration' className="img" />
-                                <img src='/logos/Others/android.png' alt='Android Studio' className="img" />
-                                <img src='/logos/Others/arduino.png' alt='Arduino' className="img" />
-                                <img src='/logos/Others/excel.png' alt='Excel' className="img" />
-                                <img src='/logos/Others/github.png' alt='GitHub' className="img" />
-                                <img src='/logos/Others/visual.png' alt='Visual Studio' className="img" />
+                                <img src='logos/Others/adobe.png' alt='Abode Illustration' className="img" />
+                                <img src='logos/Others/android.png' alt='Android Studio' className="img" />
+                                <img src='logos/Others/arduino.png' alt='Arduino' className="img" />
+                                <img src='logos/Others/excel.png' alt='Excel' className="img" />
+                                <img src='logos/Others/github.png' alt='GitHub' className="img" />
+                                <img src='logos/Others/visual.png' alt='Visual Studio' className="img" />
                             </div>
                         </div>
                     </div>

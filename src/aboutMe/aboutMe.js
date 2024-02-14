@@ -30,7 +30,7 @@ function AboutMe() {
         </div>
       </div>
       <div className="rightColumn">
-        <img className="image" src="/images/FotoCirculos.png" alt="Cassandra Hernández"></img>
+        <img className="image" src="images/FotoCirculos.png" alt="Cassandra Hernández"></img>
         <div className="icon">
           <a href={linkGitHub} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} size="3x" color="var(--primary-blue)" />

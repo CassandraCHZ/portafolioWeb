@@ -9,58 +9,58 @@ function Projects() {
     //Carousel
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const carouselImagesElecticarMobile = [
-        '/project/electricMovil/electricMovil.jpg',
-        '/project/electricMovil/electricMovil1.jpg',
-        '/project/electricMovil/electricMovil2.jpg',
-        '/project/electricMovil/electricMovil3.jpg',
-        '/project/electricMovil/electricMovil4.jpg',
-        '/project/electricMovil/electricMovil5.jpg',
-        '/project/electricMovil/electricMovil6.jpg',
-        '/project/electricMovil/electricMovil7.jpg'
+        'project/electricMovil/electricMovil.jpg',
+        'project/electricMovil/electricMovil1.jpg',
+        'project/electricMovil/electricMovil2.jpg',
+        'project/electricMovil/electricMovil3.jpg',
+        'project/electricMovil/electricMovil4.jpg',
+        'project/electricMovil/electricMovil5.jpg',
+        'project/electricMovil/electricMovil6.jpg',
+        'project/electricMovil/electricMovil7.jpg'
     ];
 
     const carouselImagesAbarrotes = [
-        '/project/abarrotes/abarrotes1.jpg',
-        '/project/abarrotes/abarrotes2.jpg',
-        '/project/abarrotes/abarrotes3.jpg',
-        '/project/abarrotes/abarrotes4.jpg',
-        '/project/abarrotes/abarrotes5.jpg',
-        '/project/abarrotes/abarrotes6.jpg',
-        '/project/abarrotes/abarrotes1.jpg',
-        '/project/abarrotes/abarrotes3.jpg'
+        'project/abarrotes/abarrotes1.jpg',
+        'project/abarrotes/abarrotes2.jpg',
+        'project/abarrotes/abarrotes3.jpg',
+        'project/abarrotes/abarrotes4.jpg',
+        'project/abarrotes/abarrotes5.jpg',
+        'project/abarrotes/abarrotes6.jpg',
+        'project/abarrotes/abarrotes1.jpg',
+        'project/abarrotes/abarrotes3.jpg'
 
     ];
 
     const carouselImagesAlex = [
-        '/project/alex/alex.jpg',
-        '/project/alex/alex.jpg',
-        '/project/alex/alex.jpg',
-        '/project/alex/alex.jpg',
-        '/project/alex/alex.jpg',
-        '/project/alex/alex.jpg',
-        '/project/alex/alex.jpg'
+        'project/alex/alex.jpg',
+        'project/alex/alex.jpg',
+        'project/alex/alex.jpg',
+        'project/alex/alex.jpg',
+        'project/alex/alex.jpg',
+        'project/alex/alex.jpg',
+        'project/alex/alex.jpg'
     ];
 
     const carouselImagesBola = [
-        '/project/bola/bola.jpg',
-        '/project/bola/bola1.jpg',
-        '/project/bola/bola2.jpg',
-        '/project/bola/bola.jpg',
-        '/project/bola/bola1.jpg',
-        '/project/bola/bola2.jpg',
-        '/project/bola/bola.jpg',
-        '/project/bola/bola1.jpg'
+        'project/bola/bola.jpg',
+        'project/bola/bola1.jpg',
+        'project/bola/bola2.jpg',
+        'project/bola/bola.jpg',
+        'project/bola/bola1.jpg',
+        'project/bola/bola2.jpg',
+        'project/bola/bola.jpg',
+        'project/bola/bola1.jpg'
     ];
 
     const carouselImagesElectricWeb = [
-        '/project/electricarWeb/elec.png',
-        '/project/electricarWeb/elec1.png',
-        '/project/electricarWeb/elec2.png',
-        '/project/electricarWeb/elec3.png',
-        '/project/electricarWeb/elec4.png',
-        '/project/electricarWeb/elec.png',
-        '/project/electricarWeb/elec1.png',
-        '/project/electricarWeb/elec2.png'
+        'project/electricarWeb/elec.PNG',
+        'project/electricarWeb/elec1.PNG',
+        'project/electricarWeb/elec2.PNG',
+        'project/electricarWeb/elec3.PNG',
+        'project/electricarWeb/elec4.PNG',
+        'project/electricarWeb/elec.PNG',
+        'project/electricarWeb/elec1.PNG',
+        'project/electricarWeb/elec2.PNG'
     ];
 
     //ELECTRICAR MOBILE
