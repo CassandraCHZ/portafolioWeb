@@ -39,6 +39,7 @@ function Skills() {
                                 <img src='logos/frontEnd/html.png' alt='HTML' className="img" />
                                 <img src='logos/frontEnd/css.png' alt='CSS' className="img" />
                                 <img src='logos/frontEnd/js.png' alt='JS' className="img" />
+                                <img src='logos/frontEnd/powerbi.png' alt='PowerBI' className="img" />
                             </div>
                         </div>
                     </div>
@@ -66,6 +67,7 @@ function Skills() {
                                 <img src='logos/backEnd/php.png' alt='PHP' className="img-back" />
                                 <img src='logos/backEnd/sql.png' alt='SQL' className="img-back" />
                                 <img src='logos/backEnd/c.png' alt='C#' className="img-back" />
+                                <img src='logos/backEnd/python.png' alt='Python' className="img-back" />
                             </div>
                         </div>
                     </div>
@@ -91,6 +93,7 @@ function Skills() {
                                 <img src='logos/Others/excel.png' alt='Excel' className="img" />
                                 <img src='logos/Others/github.png' alt='GitHub' className="img" />
                                 <img src='logos/Others/visual.png' alt='Visual Studio' className="img" />
+                                <img src='logos/Others/aspnet.png' alt='ASP NET' className="img" />
                             </div>
                         </div>
                     </div>
