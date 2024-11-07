@@ -3,7 +3,17 @@
     "Projects": "Proyectos",
     "Education": "Educación",
 
-    "PROJECTS": "PROYECTOS",
+    "PROFESSIONALPROJECTS": "PROYECTOS PROFESIONALES",
+    "DigitalHype": "Colaboré como miembro del equipo de desarrollo web en DigitalHype, identificando y resolviendo defectos de software en aplicaciones web. Además de mejorar las funcionalidades, me dediqué a diseñar interfaces responsivas. Realicé pruebas tanto en el Front End como en el Back End para evaluar el estado general de las aplicaciones y garantizar la adecuada implementación de los cambios efectuados. Asimismo, colaboré en la documentación del software y la creación de manuales correspondientes.",
+    "DigitalHypeTech": "Tecnologías usadas: React, HTML, CSS, JavaScript, TypeScript, PostgreSQL y GitHub.",
+    "DigitalHypeDate": "Octubre 2023 - Enero 2024",
+    "ISEADesarrollador": "Actualmente formo parte del equipo de desarrollo web, donde colaboro en la actualización de un sitio para asegurar el correcto registro de reportes de defunción y la mejora en la obtención de datos disponibles a través de la plataforma. Además, desarrollo una aplicación para registrar pacientes con problemas auditivos. También formo parte de un proyecto de unificación de bases de datos, cuyo objetivo es centralizar una plantilla única para actualizar los campos y registros en todas las bases de datos.",
+    "ISEADesarrolladorTech": "Tecnologías usadas: Visual Studio (C#), Crystal Reports, CSS, HTML, React, SQL Server y GitHub.",
+    "ISEADesarrolladorDate": "Abril 2024 - Actualidad",
+    "ISEADBA": "Formo parte del área de Bases de Datos, donde soy responsable del servidor de respaldos. Mi labor consiste en asegurar que los respaldos se realicen correctamente desde las unidades y hospitales, así como verificar que las restauraciones se efectúen de manera adecuada. Además, brindo soporte para resolver errores en trabajos de bases de datos y solucionar bases de datos dañadas. También participo en la creación de planes de mantenimiento y en la configuración del servicio de email.",
+    "ISEADBATech": "Tecnologías usadas: SQL Server 2008 y SQL Server 2019.",
+    "ISEADBADate": "Julio 2024 - Actualidad",
+    "PROJECTS": "PROYECTOS UNIVERSITARIOS",
     "EDUCATION": "EDUCACIÓN",
 
     "Greetings": "Hola, soy",

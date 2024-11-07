@@ -10,6 +10,7 @@
 .leftColumn {
     background-color: white;
     max-height: 500px;
+    margin-top: 60px;
 }
 
 .rightColumn {

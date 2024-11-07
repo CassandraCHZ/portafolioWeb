@@ -3,7 +3,17 @@
     "Projects": "Projects",
     "Education": "Education",
 
-    "PROJECTS": "PROJECTS",
+    "PROFESSIONALPROJECTS": "PROFESSIONAL PROJECTS",
+    "DigitalHype": "I collaborated as a member of the web development team at DigitalHype, identifying and resolving software defects in web applications. In addition to improving functionalities, I was dedicated to designing responsive interfaces. I performed testing in both Front End and Back End to evaluate the overall state of the applications and ensure the proper implementation of the changes made. I also collaborated in the documentation of the software and the creation of the corresponding manuals.",
+    "DigitalHypeTech": "Technologies used: React, HTML, CSS, JavaScript, TypeScript, PostgreSQL and GitHub.",
+    "DigitalHypeDate": "October 2023 - January  2024",
+    "ISEADesarrollador": "I am currently part of the web development team, where I collaborate in the updating of a site to ensure the correct registration of death reports and the improvement in obtaining data available through the platform. In addition, he developed an application to register patients with hearing problems.I'm also part of a database unification project, which aims to centralize a single template to update fields and records across databases.",
+    "ISEADesarrolladorTech": "Technologies used: Visual Studio (C#), Crystal Reports, CSS, HTML, React, SQL Server and GitHub. ",
+    "ISEADesarrolladorDate": "April 2024 - Present",
+    "ISEADBA": "I am part of the Databases area, where I am responsible for the backup server. My job is to ensure that backups are carried out correctly from units and hospitals, as well as to verify that restorations are carried out properly. In addition, I provide support to resolve errors in database jobs and troubleshoot corrupted databases. I also participate in the creation of maintenance plans and in the configuration of the email service.",
+    "ISEADBATech": "Technologies used: SQL Server 2008 and SQL Server 2019.",
+    "ISEADBADate": "July 2024 - Present",
+    "PROJECTS": "UNIVERSITY PROJECTS",
     "EDUCATION": "EDUCATION",
 
     "Greetings": "Hi, I am",
