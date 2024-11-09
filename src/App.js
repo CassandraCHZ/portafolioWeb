@@ -17,22 +17,26 @@ export default function App() {
 
   return (
     <>
-      <section className='App-columna'>
-        <div className='App-columna' id="sobre-mi" ref={aboutMeRef} style={{ height: '80vh', background: 'gray' }}>
+      <Navbar
+        refs={{ aboutMeRef, projectPRef, projectRef, educationRef, skillsRef, contacmeRef }} />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      <section className='App-columna' >
+        <div className='App-columna' id="sobre-mi" ref={aboutMeRef} >
           <AboutMe />
         </div>
-        <div className='App-columna'>
-          <h1>proyectos prof</h1>
+        <div className='App-columna' style={{ background: 'yellow' }}>
+          <span>proyectos prof</span>
         </div>
         <div className='App-columna'>
-          <h1>proyectos personales</h1>
+          <span>proyectos personales</span>
         </div>
         <div className='App-columna'>
-          <h1>educacion</h1>
+          <span>educacion</span>
         </div>
-
       </section>
-
     </>
   );
 };

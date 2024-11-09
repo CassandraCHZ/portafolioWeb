@@ -15,31 +15,34 @@ function AboutMe() {
   const { t } = useTranslation();
 
   return (
-    <div className="aboutcontainer">
-      <div className="leftColumn">
-        <div className="header">
-          <span>{t('Greetings')}</span>
-          <div className="typing-container">
-            <p className="typing-text">Cassandra Celheoltl Hernández Zavala</p>
+    <div className="App-fila" style={{ height: '100%', width: '100%' }}>
+      <div className='App-columna' style={{ alignItems: 'center', justifyContent: 'center'}} >
+        <div className='App-columna' style={{ alignItems: "center", justifyContent: 'center',  width: '100%' }}>
+          <span style={{ fontWeight: 'bold' }}>{t('Greetings')}</span>
+          <div className="AM-typing-container">
+            <p className="AM-typing-text">Cassandra Celheoltl Hernández Zavala</p>
           </div>
-          <p style={{textAlign:"center"}}>{t('Career')}</p>
-          <p className='text'>{t('About')}</p>
+          <span style={{textAlign:"center", fontWeight:"bolder"}}>{t('Career')}</span>
+          <br/>
+          <span className='text' style={{textAlign:"center"}}>{t('About')}</span>
           <div id="outer">
-            <a className="button_slide slide_right" href={cvUrl} download="CV_CassandraCelheoltlHernándezZavala.pdf">{t('Donwload')}</a>
+            <a className="AM-button_slide AM-slide_right" href={cvUrl} download="CV_CassandraCelheoltlHernándezZavala.pdf">{t('Donwload')}</a>
           </div>
         </div>
       </div>
-      <div className="rightColumn">
-        <img className="image" src="images/FotoCirculos.png" alt="Cassandra Hernández"></img>
-        <div className="icon">
+      <div className='App-columna' style={{ padding: '5px' }}>
+        <div className='App-fila' style={{ height: '85%', padding: '5%', alignItems: 'center', justifyContent:'center'}}>
+          <img className="AM-imagen" src={`${process.env.PUBLIC_URL}/images/FotoCirculos.png`} alt="Cassandra Hernández"></img>
+        </div>
+        <div className='AM-contenedorIconos' style={{ height: '15%' }} >
           <a href={linkGitHub} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} size="3x" color="var(--primary-blue)" />
+            <FontAwesomeIcon className='AM-icono' icon={faGithub} />
           </a>
           <a href={linkLinkedIn} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size="3x" color="var(--primary-blue)" />
+            <FontAwesomeIcon className='AM-icono' icon={faLinkedin} />
           </a>
           <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faEnvelope} size="3x" color="var(--primary-blue)" />
+            <FontAwesomeIcon className='AM-icono' icon={faEnvelope} />
           </a>
         </div>
       </div>
