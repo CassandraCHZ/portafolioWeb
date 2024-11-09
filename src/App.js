@@ -5,7 +5,6 @@ import ProjectsProfesional from './projects/projectsProfesional';
 import Projects from './projects/projects';
 import Education from './education/education';
 import Skills from './skills/skills';
-import './App.css';
 import './i18n';
 
 export default function App() {
@@ -17,26 +16,23 @@ export default function App() {
   const contacmeRef = useRef(null);
 
   return (
-    <div>
-      <Navbar
-        refs={{ aboutMeRef, projectPRef, projectRef, educationRef, skillsRef, contacmeRef }} />
-<br/><br/><br/><br/>
-      <div id="sobre-mi" ref={aboutMeRef}>
-        <AboutMe />
-      </div>
-      <div id="proyectoP" ref={projectPRef}>
-        <ProjectsProfesional />
-      </div>
-      <div id="proyecto" ref={projectRef}>
-        <Projects />
-      </div>
-      <div id="educacion" ref={educationRef}>
-        <Education />
-      </div>
-      <div id="educacion" ref={skillsRef}>
-        <Skills />
-      </div>
+    <>
+      <section className='App-columna'>
+        <div className='App-columna' id="sobre-mi" ref={aboutMeRef} style={{ height: '80vh', background: 'gray' }}>
+          <AboutMe />
+        </div>
+        <div className='App-columna'>
+          <h1>proyectos prof</h1>
+        </div>
+        <div className='App-columna'>
+          <h1>proyectos personales</h1>
+        </div>
+        <div className='App-columna'>
+          <h1>educacion</h1>
+        </div>
 
-    </div>
+      </section>
+
+    </>
   );
 };
