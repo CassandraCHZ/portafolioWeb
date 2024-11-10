@@ -38,7 +38,6 @@ export default function App() {
           <Projects />
         </div>
         <br/> 
-        <br/>
         <div className='App-columna' id= "edicacion" ref={educationRef}>
           <Education />
         </div>
