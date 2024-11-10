@@ -27,7 +27,6 @@ body {
 
 #root {
   display: block;
-  background: gray;
   max-width: 100%;
 }
 
@@ -58,7 +57,7 @@ body {
 }
 
 span {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media(max-width:786px) {

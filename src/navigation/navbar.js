@@ -11,7 +11,7 @@ const Navbar = ({ refs }) => {
     const [showMenu, setShowMenu] = useState(false);
     const [activeSection] = useState(null);
     const email = "cassandra.hdez.zav@gmail.com";
-    const linkLinkedIn = "https://www.linkedin.com/in/cassandra-hernández-zavala-0a48192a8";
+    const linkLinkedIn = "https://www.linkedin.com/in/cassandra-celheoltl-hernández-zavala-0a48192a8";
     const linkGitHub = "https://github.com/CassandraCHZ";
 
     const toggleMenu = () => {
