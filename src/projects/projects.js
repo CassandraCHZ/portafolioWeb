@@ -127,10 +127,9 @@ function Projects() {
     return (
         <>
             <div className="P-title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center"}}>
-                {t('PROJECTS')}
-            </div>
+                {t('PROJECTS')}</div>
             <br/>
-
+            <br/>
             <div className="App-fila">
                 <div className="App-columna">
                     <article className="cardv2" style={{ alignItems: 'center', justifyContent: 'center' }}>

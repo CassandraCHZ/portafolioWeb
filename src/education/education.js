@@ -9,6 +9,8 @@ function Education() {
   return (
     <>
       <div className="P-title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center", marginTop: "60px" }}>{t('EDUCATION')}</div>
+      <br/>
+      <br/>
       <div className="App-fila">
         <div className='App-columna'>
           <div className="P-lineatemp">
