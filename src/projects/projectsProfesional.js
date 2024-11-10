@@ -8,7 +8,7 @@ function ProjectsProfesional() {
 
   return (
     <>
-      <div className="PP-title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center", marginTop: "60px" }}>{t('PROFESSIONALPROJECTS')}</div>
+      <div className="PP-title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center"}}>{t('PROFESSIONALPROJECTS')}</div>
       <div>
         <div className="App-fila">
           <div className='App-columna'>

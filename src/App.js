@@ -27,14 +27,18 @@ export default function App() {
         <div className='App-columna' id="sobre-mi" ref={aboutMeRef} >
           <AboutMe />
         </div>
+        <br/>
+        <br/>
         <div className='App-columna' id="proyectoP" ref={projectPRef}>
           <ProjectsProfesional />
         </div>
         <br/> 
         <br/>
-        <div className='App-columna'>
-          <span>proyectos personales</span>
+        <div className='App-columna' id="proyecto" ref={projectRef}>
+          <Projects />
         </div>
+        <br/> 
+        <br/>
         <div className='App-columna'>
           <span>educacion</span>
         </div>

@@ -32,7 +32,7 @@ const Navbar = ({ refs }) => {
 
     return (
         <nav className="navbar">
-            <img className="logo" src="images/logo.jpeg" alt="Logo"  />
+            <img className="logo" src={`${process.env.PUBLIC_URL}/images/logo.jpeg`} alt="Logo"  />
             <p className="name">Cassandra Hernández</p>
             <div className={`menu-toggle ${showMenu ? 'active' : ''}`} onClick={toggleMenu}>
                 <div className="bar"></div>
@@ -69,9 +69,9 @@ const Navbar = ({ refs }) => {
 
                 <a onClick={toggleLanguage}>
                     {i18n.language === 'en' ? (
-                        <img src="images/usa.png" alt= "USA" style={{width:"30%" }}/>
+                        <img src={`${process.env.PUBLIC_URL}/images/usa.png`} alt= "USA" style={{width:"30%" }}/>
                     ) : (
-                        <img src="images/mexico.png" alt= "México" style={{width:"30%" }}/>
+                        <img src={`${process.env.PUBLIC_URL}/images/mexico.png`} alt= "México" style={{width:"30%" }}/>
                     )}
                 </a>
             </ul>

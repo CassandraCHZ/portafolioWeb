@@ -9,58 +9,58 @@ function Projects() {
     //Carousel
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const carouselImagesElecticarMobile = [
-        'project/electricMovil/electricMovil.jpg',
-        'project/electricMovil/electricMovil1.jpg',
-        'project/electricMovil/electricMovil2.jpg',
-        'project/electricMovil/electricMovil3.jpg',
-        'project/electricMovil/electricMovil4.jpg',
-        'project/electricMovil/electricMovil5.jpg',
-        'project/electricMovil/electricMovil6.jpg',
-        'project/electricMovil/electricMovil7.jpg'
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil1.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil2.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil3.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil4.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil5.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil6.jpg`,
+        `${process.env.PUBLIC_URL}/project/electricMovil/electricMovil7.jpg`
     ];
 
     const carouselImagesAbarrotes = [
-        'project/abarrotes/abarrotes1.jpg',
-        'project/abarrotes/abarrotes2.jpg',
-        'project/abarrotes/abarrotes3.jpg',
-        'project/abarrotes/abarrotes4.jpg',
-        'project/abarrotes/abarrotes5.jpg',
-        'project/abarrotes/abarrotes6.jpg',
-        'project/abarrotes/abarrotes1.jpg',
-        'project/abarrotes/abarrotes3.jpg'
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes1.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes2.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes3.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes4.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes5.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes6.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes1.jpg`,
+        `${process.env.PUBLIC_URL}/project/abarrotes/abarrotes3.jpg`
 
     ];
 
     const carouselImagesAlex = [
-        'project/alex/alex.jpg',
-        'project/alex/alex.jpg',
-        'project/alex/alex.jpg',
-        'project/alex/alex.jpg',
-        'project/alex/alex.jpg',
-        'project/alex/alex.jpg',
-        'project/alex/alex.jpg'
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`,
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`,
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`,
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`,
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`,
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`,
+        `${process.env.PUBLIC_URL}/project/alex/alex.jpg`
     ];
 
     const carouselImagesBola = [
-        'project/bola/bola.jpg',
-        'project/bola/bola1.jpg',
-        'project/bola/bola2.jpg',
-        'project/bola/bola.jpg',
-        'project/bola/bola1.jpg',
-        'project/bola/bola2.jpg',
-        'project/bola/bola.jpg',
-        'project/bola/bola1.jpg'
+        `${process.env.PUBLIC_URL}/project/bola/bola.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola1.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola2.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola1.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola2.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola.jpg`,
+        `${process.env.PUBLIC_URL}/project/bola/bola1.jpg`
     ];
 
     const carouselImagesElectricWeb = [
-        'project/electricarWeb/elec.PNG',
-        'project/electricarWeb/elec1.PNG',
-        'project/electricarWeb/elec2.PNG',
-        'project/electricarWeb/elec3.PNG',
-        'project/electricarWeb/elec4.PNG',
-        'project/electricarWeb/elec.PNG',
-        'project/electricarWeb/elec1.PNG',
-        'project/electricarWeb/elec2.PNG'
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec1.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec2.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec3.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec4.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec1.PNG`,
+        `${process.env.PUBLIC_URL}/project/electricarWeb/elec2.PNG`
     ];
 
     //ELECTRICAR MOBILE
@@ -125,13 +125,15 @@ function Projects() {
 
 
     return (
-        <div>
-            <div className="title">
-                <span>{t('PROJECTS')}</span>
+        <>
+            <div className="P-title" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif", fontSize: "x-large", fontWeight: "bolder", textAlign: "center"}}>
+                {t('PROJECTS')}
             </div>
-            <div className="con">
-                <div className="column-left">
-                    <article className="cardv2" style={{marginTop:"10px"}}>
+            <br/>
+
+            <div className="App-fila">
+                <div className="App-columna">
+                    <article className="cardv2" style={{ alignItems: 'center', justifyContent: 'center' }}>
                         <img
                             className="cardv2__background"
                             src={carouselImagesElecticarMobile[currentImageIndex]}
@@ -144,14 +146,17 @@ function Projects() {
                                 <h2 className="cardv2__title">{t('ElectricarMobile')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    {t('DescriptionEM')}
+                                        {t('DescriptionEM')}
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </article>
-
-                    <article className="cardv2" style={{ maxWidth: "38rem", height: "28rem", objectFit: "cover", marginTop:"18px"}}>
+                </div>
+                <br />
+                <br />
+                <div className="App-columna" >
+                    <article className="cardv2" style={{ maxWidth: "35rem", height: "28rem", alignItems: 'center', justifyContent: 'center' }}>
                         <img
                             className="cardv2__background"
                             src={carouselImagesElectricWeb[currentImageIndex]}
@@ -159,21 +164,24 @@ function Projects() {
                             width="1920"
                             height="2193"
                         />
-                        <div className="cardv2__content | flow" style={{height:"73%"}}>
+                        <div className="cardv2__content | flow" style={{ height: "73%" }}>
                             <div className="cardv2__content--container | flow">
                                 <h2 className="cardv2__title">{t('ElectricarWeb')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    {t('DescriptionEW')}
+                                        {t('DescriptionEW')}
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </article>
                 </div>
-
-                <div className="column-right">
-                    <article className="cardv2" style={{ maxWidth: "38rem", height: "28rem", objectFit: "cover",marginTop:"10px" }}>
+            </div>
+            <br />
+            <br />
+            <div className="App-fila">
+                <div className="App-columna">
+                    <article className="cardv2" style={{ maxWidth: "35rem", height: "28rem", alignItems: 'center', justifyContent: 'center' }}>
                         <img
                             className="cardv2__background"
                             src={carouselImagesAlex[currentImageIndex]}
@@ -181,19 +189,22 @@ function Projects() {
                             width="1920"
                             height="2193"
                         />
-                        <div className="cardv2__content | flow" style={{height: "72%"}}>
+                        <div className="cardv2__content | flow" style={{ height: "72%" }}>
                             <div className="cardv2__content--container | flow">
                                 <h2 className="cardv2__title">{t('Alex')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    {t('DescriptionAlex')}
+                                        {t('DescriptionAlex')}
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </article>
-
-                    <article className="cardv2" style={{ maxWidth: "38rem", height: "28rem", objectFit: "cover", marginTop:"18px" }}>
+                </div>
+                <br />
+                <br />
+                <div className="App-columna">
+                    <article className="cardv2" style={{ maxWidth: "35rem", height: "28rem", alignItems: 'center', justifyContent: 'center' }}>
                         <img
                             className="cardv2__background"
                             src={carouselImagesBola[currentImageIndex]}
@@ -206,35 +217,39 @@ function Projects() {
                                 <h2 className="cardv2__title">{t('Bola')}</h2>
                                 <div className="pv2">
                                     <p className="cardv2__description">
-                                    {t('DescriptionBola')}
+                                        {t('DescriptionBola')}
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </article>
                 </div>
-
-                <article class="cardv2" style={{ maxWidth: "38rem", height: "28rem", objectFit: "cover", margin: "0", alignItems:"center", alignContent:"center" }}>
-                        <img
-                            class="cardv2__background"
-                            src={carouselImagesAbarrotes[currentImageIndex]}
-                            alt={`Project Image ${currentImageIndex + 1}`}
-                            width="1920"
-                            height="2193"
-                        />
-                        <div class="cardv2__content | flow">
-                            <div class="cardv2__content--container | flow">
-                                <h2 class="cardv2__title"> {t('Abarrotes')}</h2>
-                                <div className="pv2">
-                                    <p class="cardv2__description">
+            </div>
+            <br />
+            <br />
+            <div className='App-columna' >
+                <article class="cardv2" style={{ maxWidth: "35rem", height: "28rem", alignItems: 'center', justifyContent: 'center' }}>
+                    <img
+                        class="cardv2__background"
+                        src={carouselImagesAbarrotes[currentImageIndex]}
+                        alt={`Project Image ${currentImageIndex + 1}`}
+                        width="1920"
+                        height="2193"
+                    />
+                    <div class="cardv2__content | flow">
+                        <div class="cardv2__content--container | flow">
+                            <h2 class="cardv2__title"> {t('Abarrotes')}</h2>
+                            <div className="pv2">
+                                <p class="cardv2__description">
                                     {t('DescriptionA')}
-                                    </p>
-                                </div>
+                                </p>
                             </div>
                         </div>
-                    </article>
+                    </div>
+                </article>
             </div>
-        </div>
+        </>
+
     );
 }
 
