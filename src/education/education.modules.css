@@ -1,28 +1,21 @@
-.contenedo {
-    display: grid;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 90vh;
-    gap: 30px;
-    grid-template-columns: 1fr 1fr;
-}
-
-.title {
+.P-title {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
 }
 
-.subtitle {
+.P-subtitle {
     display: flex;
     font-size: large;
     text-align: center;
     align-items: center;
     font-weight: 500;
+    color: rgb(39, 85, 115);
 }
 
 
-.lineatemp {
+.P-lineatemp {
     position: relative;
     width: 85%;
     height: 100%;
@@ -30,23 +23,23 @@
 }
 
 
-.fila {
+.P-fila {
     display: flex;
     justify-content: start;
     position: relative;
     padding: auto;
 }
 
-.fila .info-container {
+.P-fila .P-info-container {
     flex: 1;
     margin-left: 10px;
 }
 
-.fila .info-container>div {
+.P-fila .P-info-container>div {
     margin-bottom: 5px;
 }
 
-.fila .subtitle2 {
+.P-fila .P-subtitle2 {
     font-size: 13.5px;
     color: var(--secondary-blue);
     text-align: center;
@@ -54,7 +47,7 @@
     font-style: italic;
 }
 
-.fila .disco {
+.P-fila .P-disco {
     width: 36px;
     display: flex;
     flex-direction: column;
@@ -63,7 +56,7 @@
     align-items: center;
 }
 
-.fila .disco:after {
+.P-fila .P-disco:after {
     content: '';
     position: absolute;
     top: 0;
@@ -74,16 +67,16 @@
     z-index: -1;
 }
 
-.fila:first-child .disco:after {
+.P-fila:first-child .P-disco:after {
     height: 50%;
     top: 50%;
 }
 
-.fila:last-child .disco:after {
+.P-fila:last-child .P-disco:after {
     height: 50%;
 }
 
-.fila:hover .disco>div {
+.P-fila:hover .P-disco>div {
     border: 10px solid var(--primary-blue);
     background: white;
     border-radius: 50%;

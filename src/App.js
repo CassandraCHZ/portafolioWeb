@@ -39,8 +39,8 @@ export default function App() {
         </div>
         <br/> 
         <br/>
-        <div className='App-columna'>
-          <span>educacion</span>
+        <div className='App-columna' id= "edicacion" ref={educationRef}>
+          <Education />
         </div>
       </section>
     </>
