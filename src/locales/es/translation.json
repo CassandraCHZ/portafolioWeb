@@ -7,12 +7,32 @@
     "DigitalHype": "Colaboré como miembro del equipo de desarrollo web en DigitalHype, identificando y resolviendo defectos de software en aplicaciones web. Además de mejorar las funcionalidades, me dediqué a diseñar interfaces responsivas. Realicé pruebas tanto en el Front End como en el Back End para evaluar el estado general de las aplicaciones y garantizar la adecuada implementación de los cambios efectuados. Asimismo, colaboré en la documentación del software y la creación de manuales correspondientes.",
     "DigitalHypeTech": "Tecnologías usadas: React, HTML, CSS, JavaScript, TypeScript, PostgreSQL y GitHub.",
     "DigitalHypeDate": "Octubre 2023 - Enero 2024",
-    "ISEADesarrollador": "Actualmente formo parte del equipo de desarrollo web, donde colaboro en la actualización de un sitio para asegurar el correcto registro de reportes de defunción y la mejora en la obtención de datos disponibles a través de la plataforma. Además, desarrollo una aplicación para registrar pacientes con problemas auditivos. También formo parte de un proyecto de unificación de bases de datos, cuyo objetivo es centralizar una plantilla única para actualizar los campos y registros en todas las bases de datos.",
+  
+    "ISEADesarrollador": "Actualicé de un sitio web para asegurar el registro adecuado de los reportes de defunción, así como en la mejora de la obtención de datos disponibles a través de la plataforma.  Además, desarrollé una aplicación para registrar a los pacientes con problemas auditivos. También como parte del proyecto de unificación de bases de datos, con el objetivo de centralizar y actualizar los campos de registro de todas las bases de datos.",
     "ISEADesarrolladorTech": "Tecnologías usadas: Visual Studio (C#), Crystal Reports, CSS, HTML, React, SQL Server y GitHub.",
-    "ISEADesarrolladorDate": "Abril 2024 - Actualidad",
+    "ISEADesarrolladorDate": "Abril - Julio 2024",
+    
+    "ISEADesarrolladorDH": "Se diseñó e implementó de un sitio web dirigido a diversas áreas de hospitales y centros de salud, para consultar la derechohabiencia de los pacientes. El proyecto se desarrolló bajo el modelo MVC, integrando dos servicios externos proporcionados por terceros, los cuales fueron consumidos y gestionados mediante WebHooks para el envío de respuestas.",
+    "ISEADesarrolladorDHTech": "Tecnologías usadas: Visual Studio (C#),.NET Framewrok, ASP.NET, CSS, HTML, Sql Server y GitHub.",
+    "ISEADesarrolladorDHDate": "Enero - Mayo 2025",
+
+    "ISEADesarrolladorAM": "Colaboré en el sistema de agenda médica para doctores y enlaces de hospitales y centros de salud, con esto facilitando a los médicos solicitar interconsultas a hospitales con especialidades específicas, escogiendo día y hora según disponibilidad. El fronend se desarrolló con React y el backend con ASP.NET MVC, uniendo ambo para favorecer en una solución funcional y robusta.",
+    "ISEADesarrolladorAMTech": "Tecnologías usadas: Visual Studio (C#), .NET Framewrok, ASP.NET, CSS, HTML, Sql Server y GitHub.",
+    "ISEADesarrolladorAMDate": "Mayo 2025 - Presente",
+
     "ISEADBA": "Formo parte del área de Bases de Datos, donde soy responsable del servidor de respaldos. Mi labor consiste en asegurar que los respaldos se realicen correctamente desde las unidades y hospitales, así como verificar que las restauraciones se efectúen de manera adecuada. Además, brindo soporte para resolver errores en trabajos de bases de datos y solucionar bases de datos dañadas. También participo en la creación de planes de mantenimiento y en la configuración del servicio de email.",
     "ISEADBATech": "Tecnologías usadas: SQL Server 2008 y SQL Server 2019.",
-    "ISEADBADate": "Julio 2024 - Actualidad",
+    "ISEADBADate": "Julio 2024 - Presente",
+
+    "ISEADBACIPS": "Se realizó la configuración de servidores provenientes de centros de salud. Las actividades incluyen el cambio de direcciones IP’s, actualización del sistema, creación de tareas programadas y vinculación de los servidores.",
+    "ISEADBACIPSTech": "Tecnologías usadas: Sql Server, programador de tareas y archivos hosts.",
+    "ISEADBACIPSDate": "Marzo 2025 - Presente",
+
+    "ISEADBACSQL": "Se instaló y configuró SQL Server en múltiples equipos. Se realizaron tareas de administración como la creación de trabajos automatizados, planes de mantenimiento, restauración de bases de datos y configuración de roles y permisos de acceso.",
+    "ISEADBACSQLTech": "Tecnologías usadas: Sql Server, programador de tareas y archivos hosts.",
+    "ISEADBACSQLDate": "Junio 2025 - Presente",
+    
+
     "PROJECTS": "PROYECTOS UNIVERSITARIOS",
     "EDUCATION": "EDUCACIÓN",
 

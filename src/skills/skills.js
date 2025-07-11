@@ -70,6 +70,8 @@ function Skills() {
                                     <img src={`${process.env.PUBLIC_URL}/logos/backEnd/sql.png`} alt='SQL' className="S-img-back" />
                                     <img src={`${process.env.PUBLIC_URL}/logos/backEnd/c.png`} alt='C#' className="S-img-back" />
                                     <img src={`${process.env.PUBLIC_URL}/logos/backEnd/python.png`} alt='Python' className="S-img-back" />
+                                    <img src={`${process.env.PUBLIC_URL}/logos/backEnd/aspnet.png`} alt='AspNet' className="S-img-back" />
+                                    <img src={`${process.env.PUBLIC_URL}/logos/backEnd/netFramework.png`} alt='NetFramework' className="S-img-back" />
                                 </div>
                             </div>
                         </div>
